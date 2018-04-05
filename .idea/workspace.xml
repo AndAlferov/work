@@ -1,11 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="2a85faf6-45bf-49dd-b1f6-9edf882aea40" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/contact.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.pytest_cache/v/cache/nodeids" beforeDir="false" afterPath="$PROJECT_DIR$/.pytest_cache/v/cache/nodeids" afterDir="false" />
-    </list>
+    <list default="true" id="2a85faf6-45bf-49dd-b1f6-9edf882aea40" name="Default" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -80,10 +76,10 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="342" />
-    <option name="y" value="116" />
-    <option name="width" value="1099" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="302" />
+    <option name="y" value="151" />
+    <option name="width" value="1200" />
     <option name="height" value="969" />
   </component>
   <component name="ProjectView">
@@ -130,7 +126,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python tests.py.test for test_add_contact.test_add_contact">
+  <component name="RunManager" selected="Python tests.py.test for test_add_group.test_add_group">
     <configuration name="py.test for test_add_contact.test_add_contact" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
       <module name="work" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -210,11 +206,11 @@
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python tests.py.test for test_add_group.test_add_group" />
         <item itemvalue="Python tests.py.test for test_add_contact.test_add_contact" />
         <item itemvalue="Python tests.py.test for test_add_contact.test_add_contact.test_" />
         <item itemvalue="Python tests.py.test in test_add_contact.py" />
         <item itemvalue="Python tests.py.test in tesr_add_contact.py" />
-        <item itemvalue="Python tests.py.test for test_add_group.test_add_group" />
       </list>
     </recent_temporary>
   </component>
@@ -264,15 +260,15 @@
     </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="7" />
+    <frame x="693" y="117" width="1099" height="969" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2296875" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.4072022" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="9" />
       <window_info anchor="bottom" id="Python Console" order="7" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.4399575" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.4847775" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Terminal" order="8" />
       <window_info id="Favorites" order="2" side_tool="true" />

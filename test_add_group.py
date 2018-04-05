@@ -68,7 +68,7 @@ class test_add_group(unittest.TestCase):
         wd.find_element_by_css_selector("input[type=\"submit\"]").click()
 
     def open_home_page(self, wd):
-        wd.get("http://localhost/addressbook/")
+        wd.get("http://10.50.7.3/addressbook/")
 
     def tearDown(self):
         self.wd.quit()
