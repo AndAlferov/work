@@ -112,9 +112,9 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="932" />
-    <option name="y" value="167" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="353" />
+    <option name="y" value="104" />
     <option name="width" value="1093" />
     <option name="height" value="940" />
   </component>
@@ -187,7 +187,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python tests.py.test in test_add_group.py">
+  <component name="RunManager" selected="Python tests.py.test in test_add_contact.py">
     <configuration name="application1" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="work" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -271,9 +271,9 @@
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python tests.py.test in test_add_contact.py" />
         <item itemvalue="Python tests.py.test in test_add_group.py" />
         <item itemvalue="Python tests.py.test for test_add_group.test_test_add_group" />
-        <item itemvalue="Python tests.py.test in test_add_contact.py" />
         <item itemvalue="Python.application1" />
         <item itemvalue="Python tests.py.test for test.test_add_group.test_test_add_empty_group" />
       </list>
