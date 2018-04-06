@@ -11,8 +11,8 @@ def app(request):
     return fixture
 
 def test_(app):
-    app.login(username="admin", password="secret")
+    app.session.login(username="admin", password="secret")
     app.init_contact_creation()
     app.fill_contact_firm(Contact(firstname="sdfsdf", secondname="sdfsdf", number="234234"))
     app.submit_contact()
-    app.logout()
+    app.session.logout()
