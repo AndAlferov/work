@@ -1,1 +1,4 @@
-{}
+{
+  "test_edit_contact.py::test_edit_contact": true,
+  "test_edit_first_group.py::test_delete_first_contact": true
+}
