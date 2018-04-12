@@ -31,10 +31,16 @@ class ContactHelper:
 
     def test_edit_contact(self):
         wd = self.app.wd
-        wd.find_element_by_xpath("//div[@id='content']/form[2]/div[2]/Edit").click()
+        wd.find_element_by_css_selector("img[alt='Edit']").click()
+        wd.find_element_by_name("firstname").click()
+        wd.find_element_by_name("firstname").clear()
+        wd.find_element_by_name("firstname").send_keys("EDIT")
+        wd.find_element_by_name("update").click()
+        self.return_to_home_page()
 
-
-
+    def return_to_home_page(self):
+        wd = self.app.wd
+        wd.find_element_by_link_text("home page").click()
 
     def submit_contact(self):
         wd = self.app.wd
