@@ -1,3 +1,4 @@
 [
-  "test_edit_contact.py::test_edit_contact"
+  "test_modify_group.py::test_modify_group_name",
+  "test_modify_group.py::test_modify_group_header"
 ]
