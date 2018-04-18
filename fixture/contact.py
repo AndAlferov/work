@@ -4,13 +4,23 @@ class ContactHelper:
     def __init__(self, app):
         self.app = app
 
-    def init_contact_creation(self):
+    def open_home_page(self):
         wd = self.app.wd
-        wd.find_element_by_link_text("add new").click()
+        if not (wd.current_url.endswith("/group.php") and len(wd.find_elements_by_xpath("//table[@id='maintable']//a[.='Address']")) > 0):
+            wd.find_element_by_xpath("//div/div[3]/ul/li[1]/a").click()
 
-    def fill_contact_firm(self, contact):
+    def create(self, contact):
         wd = self.app.wd
-        # fill contact firm
+        self.return_to_home_page()
+        # init group creation
+        self.fill_contact_form(contact)
+        # submit group
+        wd.find_element_by_name("submit").click()
+        self.return_to_home_page()
+
+    def fill_contact_form(self, contact):
+        wd = self.app.wd
+        wd.find_element_by_xpath("//div/div[3]/ul/li[2]/a").click()
         wd.find_element_by_name("theform").click()
         wd.find_element_by_name("firstname").click()
         wd.find_element_by_name("firstname").clear()
@@ -22,9 +32,13 @@ class ContactHelper:
         wd.find_element_by_name("mobile").clear()
         wd.find_element_by_name("mobile").send_keys(contact.number)
 
-    def delete_first_contact(self):
+    def select_first_contact(self):
         wd = self.app.wd
         wd.find_element_by_name("selected[]").click()
+
+    def delete_first_contact(self):
+        wd = self.app.wd
+        self.select_first_contact()
         wd.find_element_by_xpath("//div[@id='content']/form[2]/div[2]/input").click()
         wd.switch_to_alert().accept()
 
@@ -39,7 +53,7 @@ class ContactHelper:
 
     def return_to_home_page(self):
         wd = self.app.wd
-        wd.find_element_by_link_text("home page").click()
+        wd.find_element_by_xpath("//div/div[3]/ul/li[1]/a").click()
 
     def submit_contact(self):
         wd = self.app.wd
