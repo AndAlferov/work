@@ -52,7 +52,7 @@ class ContactHelper:
         wd.find_element_by_xpath("//div[@id='content']/form[2]/div[2]/input").click()
         wd.switch_to_alert().accept()
 
-    def test_edit_contact(self):
+    def test_edit_first_contact(self):
         wd = self.app.wd
         self.edit_fisrt_contact()
         wd.find_element_by_name("firstname").click()
@@ -69,3 +69,7 @@ class ContactHelper:
         wd = self.app.wd
         wd.find_element_by_xpath("//div/div[3]/ul/li[1]/a").click()
 
+    def count(self):
+        wd = self.app.wd
+        self.return_to_home_page()
+        return len(wd.find_elements_by_name("selected[]"))
