@@ -39,7 +39,7 @@ class ContactHelper:
     def modify_first_contact(self, new_contact_data):
         wd = self.app.wd
         self.return_to_home_page()
-        self.edit_fisrt_contact()
+        self.edit_first_contact()
         # fill group form
         self.fill_contact_form(new_contact_data)
         # submit modification
@@ -54,14 +54,14 @@ class ContactHelper:
 
     def test_edit_first_contact(self):
         wd = self.app.wd
-        self.edit_fisrt_contact()
+        self.edit_first_contact()
         wd.find_element_by_name("firstname").click()
         wd.find_element_by_name("firstname").clear()
         wd.find_element_by_name("firstname").send_keys("EDIT")
         wd.find_element_by_name("update").click()
         self.return_to_home_page()
 
-    def edit_fisrt_contact(self):
+    def edit_first_contact(self):
         wd = self.app.wd
         wd.find_element_by_css_selector("img[alt='Edit']").click()
 
