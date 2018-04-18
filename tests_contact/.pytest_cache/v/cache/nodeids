@@ -1,0 +1,5 @@
+[
+  "test_add_contact.py::test_",
+  "test_del_contact.py::test_delete_first_contact",
+  "test_edit_contact.py::test_edit_contact"
+]
