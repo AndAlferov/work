@@ -55,6 +55,4 @@ class ContactHelper:
         wd = self.app.wd
         wd.find_element_by_xpath("//div/div[3]/ul/li[1]/a").click()
 
-    def submit_contact(self):
-        wd = self.app.wd
-        wd.find_element_by_xpath("//div[@id='content']/form/input[21]").click()
+
