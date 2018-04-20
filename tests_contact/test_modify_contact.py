@@ -3,7 +3,7 @@ from model.contact import Contact
 
 def test_modify_contact_name(app):
     if app.contact.count() == 0:
-      app.contact.create(Contact(firstname="test"))
+        app.contact.create(Contact(firstname="test", secondname="text"))
     old_contacts = app.contact.get_contact_list()
     app.contact.modify_first_contact(Contact(firstname="New"))
     new_contacts = app.contact.get_contact_list()
@@ -12,7 +12,7 @@ def test_modify_contact_name(app):
 
 def test_modify_contact_header(app):
     if app.contact.count() == 0:
-      app.contact.create(Contact(firstname="test"))
+        app.contact.create(Contact(firstname="test", secondname="text"))
     old_contacts = app.contact.get_contact_list()
     app.contact.modify_first_contact(Contact(secondname="New header"))
     new_contacts = app.contact.get_contact_list()
