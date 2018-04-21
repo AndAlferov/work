@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="2a85faf6-45bf-49dd-b1f6-9edf882aea40" name="Default" comment="" />
+    <list default="true" id="2a85faf6-45bf-49dd-b1f6-9edf882aea40" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/fixture/application.py" beforeDir="false" afterPath="$PROJECT_DIR$/fixture/application.py" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -38,11 +40,20 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="contact.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="contact.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/fixture/contact.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="96">
               <caret line="63" column="52" lean-forward="true" selection-start-line="63" selection-start-column="52" selection-end-line="63" selection-end-column="52" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="application.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/fixture/application.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="221">
+              <caret line="16" column="31" lean-forward="true" selection-start-line="16" selection-start-column="31" selection-end-line="16" selection-end-column="31" />
             </state>
           </provider>
         </entry>
@@ -93,18 +104,18 @@
         <option value="$PROJECT_DIR$/tests_contact/test_del_contact.py" />
         <option value="$PROJECT_DIR$/model/group.py" />
         <option value="$PROJECT_DIR$/model/contact.py" />
-        <option value="$PROJECT_DIR$/fixture/application.py" />
         <option value="$PROJECT_DIR$/tests_contact/test_modify_contact.py" />
         <option value="$PROJECT_DIR$/test/test_add_group.py" />
         <option value="$PROJECT_DIR$/tests_contact/test_add_contact.py" />
         <option value="$PROJECT_DIR$/fixture/group.py" />
         <option value="$PROJECT_DIR$/fixture/contact.py" />
+        <option value="$PROJECT_DIR$/fixture/application.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="532" />
-    <option name="y" value="294" />
+    <option name="x" value="412" />
+    <option name="y" value="199" />
     <option name="width" value="1239" />
     <option name="height" value="677" />
   </component>
@@ -319,7 +330,7 @@
     </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="532" y="294" width="1239" height="677" extended-state="0" />
+    <frame x="412" y="199" width="1239" height="677" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.1676206" />
@@ -534,13 +545,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/fixture/application.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="25" column="22" selection-start-line="25" selection-start-column="22" selection-end-line="25" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/model/contact.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="304">
@@ -608,6 +612,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="96">
           <caret line="63" column="52" lean-forward="true" selection-start-line="63" selection-start-column="52" selection-end-line="63" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/fixture/application.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="16" column="31" lean-forward="true" selection-start-line="16" selection-start-column="31" selection-end-line="16" selection-end-column="31" />
         </state>
       </provider>
     </entry>
