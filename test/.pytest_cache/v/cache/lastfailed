@@ -1,4 +1,8 @@
 {
+  "test_add_group.py::test_add_group[None:name=B= VL;headere;footerm '\"b]": true,
+  "test_add_group.py::test_add_group[None:nameEI Oy;header nHC%i>/;footerK1L\\\\]": true,
+  "test_add_group.py::test_add_group[None:namecw}GZ;headerMz2FZ{UB%{ Y(w\\\\<A;footer6YZ{;'X]": true,
+  "test_add_group.py::test_add_group[None:namer<-#A>w;headerY1u&T/e8L ;footer?#C4t]": true,
   "test_edit_first_group.py::test_delete_first_contact": true,
   "test_modify_group.py::test_modify_group": true
 }

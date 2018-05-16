@@ -1,6 +1,8 @@
 [
-  "test_add_group.py::test_add_group",
-  "test_del_group.py::test_delete_first_group",
-  "test_edit_first_group.py::test_edit_first_group",
-  "test_modify_group.py::test_modify_group_name"
+  "test_add_group.py::test_add_group[None:;;]",
+  "test_add_group.py::test_add_group[None:name;header.g:u.u;>x$p_, ! oI9;footer+PXrg1_2 ;H%| CRq]",
+  "test_add_group.py::test_add_group[None:nameEI Oy;header nHC%i>/;footerK1L\\\\]",
+  "test_add_group.py::test_add_group[None:name;LBU3~;headeraZ_{De.`c;footermUz, RPuQ%zz`]",
+  "test_add_group.py::test_add_group[None:nameE;headerU ,S\"2_N8]Jp[J\\\\eS;footerRb8gmB#X]",
+  "test_add_group.py::test_add_group[None:name=B= VL;headere;footerm '\"b]"
 ]
