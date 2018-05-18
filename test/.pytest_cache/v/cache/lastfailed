@@ -1,8 +1,12 @@
 {
+  "test_add_group.py::test_add_group[None:name aE{(m~<;header&Rfy'u,mg![m TwtE;footer/)#5/ RM6_ZeY]": true,
+  "test_add_group.py::test_add_group[None:name<;header& g<\\\\|6x;footerz-GS9dT VK!}0HJ < ]": true,
   "test_add_group.py::test_add_group[None:name=B= VL;headere;footerm '\"b]": true,
   "test_add_group.py::test_add_group[None:nameEI Oy;header nHC%i>/;footerK1L\\\\]": true,
+  "test_add_group.py::test_add_group[None:name_|[_@eB>t;headermKeU';footer]": true,
   "test_add_group.py::test_add_group[None:namecw}GZ;headerMz2FZ{UB%{ Y(w\\\\<A;footer6YZ{;'X]": true,
   "test_add_group.py::test_add_group[None:namer<-#A>w;headerY1u&T/e8L ;footer?#C4t]": true,
+  "test_add_group.py::test_add_group[None:name{(   3 i;header PEpR!{a?;footer=Z- *]": true,
   "test_edit_first_group.py::test_delete_first_contact": true,
   "test_modify_group.py::test_modify_group": true
 }

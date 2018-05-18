@@ -1,8 +1,8 @@
 [
-  "test_add_contact.py::test_add_contact",
-  "test_del_contact.py::test_delete_first_contact",
-  "test_edit_first_contact.py::test_edit_first_contact",
-  "test_modify_contact.py::test_modify_contact_name",
-  "test_phone.py::test_phones_on_home_page",
-  "test_phone.py::test_phones_on_contact_view_page"
+  "test_add_contact.py::test_add_contact[None: ]",
+  "test_add_contact.py::test_add_contact[None:firstnamex\\\\f} lastname]",
+  "test_add_contact.py::test_add_contact[None:firstnameB?&mU q2 lastname]",
+  "test_add_contact.py::test_add_contact[None:firstnameH5KC;6 &P lastname/!a.h`]",
+  "test_add_contact.py::test_add_contact[None:firstnameg&8ed lastnamel>sjHm4}]",
+  "test_add_contact.py::test_add_contact[None:firstnameKYC\"xi lastnameIob5l:;oa]"
 ]
